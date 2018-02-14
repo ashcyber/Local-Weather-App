@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Application</title>
+  <script type="text/javascript" src="jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+  <div class="container text-center">
+        <h1>Weather Application</h1>
+        <hr>
+        <img id="icon_image">
+        <p id="location" >Location</p>
+
+        <div class="temp_box">
+            <p id="temp"></p>
+        </div>
+        <p id="description">Description</p>
+        <p style="font-size: 20px;">
+          <span id="humid" class="label label-info">humidity: </span>
+          &nbsp; 
+          <span id="wind" class="label label-warning">wind: </span>
+        </p>
+        <br>
+        <button id="fahr" class="btn btn-primary">&#x2109</button> | 
+        <button id="cel" class="btn btn-primary">&#x2103</button>
+        <hr>
+  </div>
+
+
+
+  
+<div class="icon thunder-storm">
+  <div class="cloud"></div>
+  <div class="lightning">
+    <div class="bolt"></div>
+    <div class="bolt"></div>
+  </div>
+</div>
+
+<div class="icon cloudy">
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+</div>
+
+<div class="icon flurries">
+  <div class="cloud"></div>
+  <div class="snow">
+    <div class="flake"></div>
+    <div class="flake"></div>
+  </div>
+</div>
+
+<div class="icon sunny">
+  <div class="sun">
+    <div class="rays"></div>
+  </div>
+</div>
+
+<div class="icon rainy">
+  <div class="cloud"></div>
+  <div class="rain"></div>
+</div>
+
+  <div id = "data">
+  </div>
+</body>
+</html>
+
+

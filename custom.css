@@ -1,0 +1,30 @@
+body{
+	background-color: #212121;
+  	color: white;
+  	font-family: 'Orbitron', sans-serif;
+
+}
+
+h1{
+	font-size: 50px;
+	margin-top: 50px; 
+}
+
+#location{
+	font-size: 25px;
+}
+
+
+#description{
+	font-size: 25px; 
+}
+
+#temp {
+	font-size: 100px; 
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+#temp sup{
+	font-size: 50px; 
+}
